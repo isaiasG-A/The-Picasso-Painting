@@ -77,6 +77,51 @@ section {
 
 @media screen and (min-width: 1050px) and (max-width: 1680px) {
 
+  .triangle1 {
+    top: 12vh;
+  }
+
+  .triangle2 {
+    bottom: 5.5vh;
+  }
+
+  .triangle3 {
+    bottom: 22.5vh;
+  }
+
+  .triangle4 {
+    bottom: 40vh;
+  }
+
+  .form-link {
+    font-size: 24px;
+  }
+
+  .form-div {
+    margin-top: 11vh
+  }
+
+  h2 {
+    font-size: 34px;
+  }
+  label {
+    font-size: 28px;
+  }
+
+  input {
+    width: 13vw;
+    height: 3vh;
+    margin-bottom: 2vh;
+  }
+
+  .form-link {
+    margin-top: 3vh;
+  }
+
+  .form-link-btn {
+    padding: 5px 39px;
+  }
+
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
