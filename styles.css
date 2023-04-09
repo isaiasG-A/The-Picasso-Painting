@@ -79,7 +79,32 @@ section {
 
 }
 
-@media screen and (min-width: 768px) and (max-width: 10224px) {
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+  .triangle1 {
+    top: 16vh
+  }
+
+  .triangle2 {
+    bottom: -2.5vh;
+  }
+
+  .triangle3 {
+    bottom: 11.5vh;
+  }
+
+  .triangle4 {
+    bottom: 25vh;
+  }
+
+  .form-div {
+    padding-top: 14vh;
+  }
+
+  .form-link-btn {
+    padding: 6px 28px;
+    border-width: 2px;
+  }
 
 }
 
