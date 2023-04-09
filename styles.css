@@ -6,12 +6,10 @@ h1, h2, h3, h4, h5, h6, a, button, p, li {
 
 section {
   border: 1px solid black;
-  width: 27vw;
+  width: 29%;
   height: 65vh;
   border-width: 15px;
-  margin-top: 5vh;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 5vh auto 0;
 }
 
 .triangle {
@@ -20,9 +18,7 @@ section {
   border-right: 10vw solid transparent;
   border-left: 10vw solid transparent;
   width: 0;
-  margin-left: auto;
-  margin-right: auto;
-
+  margin: 0 auto;
 }
 
 .triangle1 {
@@ -33,7 +29,6 @@ section {
 
 .triangle2 {
   border-top: 15vw solid #c8c1b1;
-  bottom: 11vh;
   opacity: 0.6;
   bottom: 11.5vh;
 }
@@ -48,9 +43,9 @@ section {
 
 .triangle4 {
   border-top: 15vw solid #d2d9db;
-  bottom: 29vh;  
   opacity: 0.8;
   bottom: 51vh;
+  z-index: 1;
 }
 
 
@@ -66,4 +61,79 @@ section {
   border: 7px solid;
   padding: 10px;
   font-weight: bolder;
+}
+
+.form-container {
+  text-align: center;
+}
+
+.submit-btn {
+  width: 22%;
+  height: 3vh;
+  margin-top: 4%;
+}
+
+
+
+@media screen and (min-width: 1050px) and (max-width: 1680px) {
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 10224px) {
+
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+
+  section {
+    border-width: 3px;
+  }
+
+  .triangle1 {
+    top: 11vh;
+  }
+
+  .triangle2 {
+    bottom: 4.5vh
+  }
+
+  .triangle3 {
+    bottom: 20.5vh
+  }
+
+  .triangle4 {
+    bottom: 36vh;
+}
+
+.form-link {
+  margin-top: 7vh;
+}
+
+.form-link-btn {
+  font-size: 10px;
+  border: 4px solid;
+}
+
+h2 {
+  font-size: 18px;
+}
+
+label {
+  font-size: 15px;
+}
+
+input {
+  width: 76%;
+}
+
+.form-link {
+  margin-top: 12vh;
+}
+
+.form-link-btn {
+  padding: 6px 28px;
+  border-width: 2px;
+}
+
+
 }
